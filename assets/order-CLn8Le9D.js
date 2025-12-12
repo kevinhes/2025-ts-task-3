@@ -1,0 +1,1 @@
+import{E as t}from"./index-CHbl8j8q.js";const a="gallery-ecommerce",p=t(),r=o=>p.post(`/v2/api/${a}/coupon`,{data:{code:o}}),s=o=>p.post(`/v2/api/${a}/order`,{data:o}),c=o=>p.post(`/v2/api/${a}/pay/${o}`);export{r as a,c as b,s as c};
