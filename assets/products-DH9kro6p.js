@@ -1,0 +1,1 @@
+import{E as a}from"./index-DFOopzto.js";const c="gallery-ecommerce",o=a(),p=t=>o.get(`/v2/api/${c}/products`,{params:t}),r=()=>o.get(`/v2/api/${c}/products/all`),s=t=>o.get(`/v2/api/${c}/product/${t}`);export{p as a,r as b,s as c};
